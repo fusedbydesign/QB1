@@ -1,0 +1,32 @@
+
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+  
+outputs:
+  - name: 'gerbers'
+    comment: "Gerbers for production"
+    type: gerber
+    dir: kibot/gerber
+    options:
+      subtract_mask_from_silk: true
+    layers:
+      - "selected"
+
+  - name: "gerber-drill"
+    comment: "Drill positions for production"
+    type: "gerb_drill"
+    dir: kibot/gerber
+
+  - name: "gerber-compressed"
+    comment: "compressing the gerbers into one convenient file"
+    type: compress
+    dir: kibot
+    options:
+      files:
+        - from_output: "gerbers"
+          dest: /
+        - from_output: "gerber-drill"
+          dest: /

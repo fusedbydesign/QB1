@@ -1,0 +1,78 @@
+name: "Generate production files on release"
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  genprod:
+    name: "Generate production files"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Get repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: '0'
+
+    - name: Production files for ESP32DK main board
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: output_mainboard_ESP32DK
+        config: mainboards/ESP32DK/config.kibot.yaml
+        schema: mainboards/ESP32DK/kicad/mainboard.kicad_sch
+        board: mainboards/ESP32DK/kicad/mainboard.kicad_pcb
+    - name: Zip Production Files
+      run: zip -r production_mainboard_ESP32DK.zip output_mainboard_ESP32DK
+    - name: Upload Release Assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: 'production_mainboard_ESP32DK.zip'
+    - name: Upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output_mainboard_ESP32DK
+        path: output_mainboard_ESP32DK
+        
+    - name: Production files for HC-SR04
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: output_peripheral_HCSR04
+        config: peripherals/HCSR04/config.kibot.yaml
+        schema: peripherals/HCSR04/kicad/hcsr04.kicad_sch
+        board: peripherals/HCSR04/kicad/hcsr04.kicad_pcb
+    - name: Zip Production Files
+      run: zip -r production_peripheral_HCSR04.zip output_peripheral_HCSR04
+    - name: Upload Release Assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: 'production_peripheral_HCSR04.zip'
+    - name: Upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output_peripheral_HCSR04
+        path: output_peripheral_HCSR04
+        
+    - name: Production files for GDO
+      uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: output_peripheral_GDO
+        config: peripherals/GDO/config.kibot.yaml
+        schema: peripherals/GDO/kicad/gdo.kicad_sch
+        board: peripherals/GDO/kicad/gdo.kicad_pcb
+    - name: Zip Production Files
+      run: zip -r production_peripheral_GDO.zip output_peripheral_GDO
+    - name: Upload Release Assets
+      uses: softprops/action-gh-release@v1
+      with:
+        files: 'production_peripheral_GDO.zip'
+    - name: Upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output_peripheral_GDO
+        path: output_peripheral_GDO
+        
