@@ -31,7 +31,7 @@ QB1 is a rapid prototyping system for ESP32 devices. The system was designed for
     </td>
     <td>
       <img src="images/garage.jpeg" alt="garage project image" width="320"/><br>
-      A ceiling-mounted device that combines human presence detection using an AM312 PIR motion sensor, car presence detection using an HC-SR04 distance sensor, and garage door control/status using a [ratgdo-compatible](https://github.com/PaulWieland/ratgdo) peripheral board. 
+      A ceiling-mounted device that combines human presence detection using an AM312 PIR motion sensor, car presence detection using an HC-SR04 distance sensor, and garage door control/status using a <a href="https://github.com/PaulWieland/ratgdo">ratgdo-compatible</a> peripheral board. 
     </td>
   </tr>
 </table>
@@ -54,7 +54,7 @@ All components other than custom circuit boards and 3D-printed enclosure parts c
 
 * A QB1 main board. You can order this from a PCB printing company like JLCPCB using Gerber files produced from the source files using Kicad.
 * A 30-pin ESP32 development board with USB-C connector. You can choose a device with the right storage and other features for your application.
-* (7) Female 15-pin, single row board header with 2.54 mm pin spacing. You will need two for the ESP32 board and up to 5 for the remaining board faces. Depending on the application, some of these can be left off or replaced with other connectors.
+* (7) Female 15-pin, single row board header with 2.54 mm pin spacing. You will need two for the ESP32 dev kit socket and up to 5 for the remaining QB4 faces.
 * M3 self-tapping, coarse threaded screws with pan head. The head must be between 3.5mm and 5.5mm in diameter. 
   * (8) To secure the main board and close the case, use screws that are 8mm long (not counting the head), but screws up to 16 mm in length will also work.
   * (4, Optional) To make the top plate removable and functional, use screws that are exactly 8mm long (not counting the head). In most cases, the top plate is not used for sensors or other peripherals, because the four side plates are sufficient. In this case, it can be glued in place, and these screws are unnecessary.
