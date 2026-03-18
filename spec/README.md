@@ -67,7 +67,7 @@ The PIO pins have the following features and allowed uses:
 ### Power
 
 The specification allows two power configurations:
-* In the full power configuration, power is supplied to both the 5V and 3.3V volt rails. All spec-compliant peripherals can be used in this configuration.
+* In the full power configuration, power is supplied to both the 5V and 3.3V rails. All spec-compliant peripherals can be used in this configuration.
 * In the low power configuration, power is only fully supplied to the 3.3V rail. This configuration should be used when the device is powered by a battery, or otherwise has power limitations. Peripherals should work in low power mode, if possible, but this mode will not support peripherals that require 5V. A low power device may supply power to the 5V rail, but attached peripherals must not draw power from this rail.  
 
 #### Supply

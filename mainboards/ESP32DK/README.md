@@ -10,8 +10,8 @@ The ESP32 Dev Kit Main Board adapts a 30-pin ESP32 dev dev to the QB1. This is t
 
 ## Assembly
 
-* Solder 15-pin female header connectors to the locations on indicated for the ESP32 dev kit, and also to any peripheral locations that will be used. 
-* Solder connectors for power and reset connections, as needed. 
+* Solder 15-pin female header connectors to the locations on indicated for the ESP32 dev kit, and also to any peripheral locations that will be used. Note that connectors for the dev kit go on the bottom of the board, while the connectors for the peripherals go on the top. Use the PCB silk screen as a guide, and only place connectors where the holes are surrounded by a border on the silk screen.  
+* Solder additional connectors for power and reset connections, as needed. In many cases, these connectors are unnecessary.   
 
 ## Operation
 
@@ -41,6 +41,7 @@ This main board has four peripheral connectors labeled EB1-5. EB5 is in the cent
 
 
 | Pin # | Connector | Host EB1 | Host EB2 | Host EB3 | Host EB4 | Host EB5 |
+|---|---|---|---|---|---|---|
 | 12 | PIO4 | D12 | D4 | D2 | D15 | D4 |
 | 13 | PIO3 | D36 | D39 | D34 | D35 | D39 |
 | 14 | PIO2 | D27 | D13 | D14 | D33 | D13 |
