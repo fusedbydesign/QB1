@@ -46,7 +46,7 @@ The SCL and SDA pins are used to construct an I2C bus controlled by the host.  A
 
 #### Power Pins
 
-The 3V3 pin must provides 3.3V during operation. The VIN pin may provide 5V, or it may be unconnected, depending on the configuration. The user must ensure that only one power supply is connected to either VIN or 3V3, originating from the main board or a peripheral. When 5V is supplied to VIN, the main board will produce 3.3V and supply it to the 3V3 pin.  
+The 3V3 pin provides 3.3V during operation. The VIN pin may provide 5V, or it may be unconnected, depending on the configuration. The user must ensure that only one power supply is connected to either VIN or 3V3, originating from the main board or a peripheral. When 5V is supplied to VIN, the main board will produce 3.3V and supply it to the 3V3 pin.  
 
 #### PIO Pins
 
@@ -55,7 +55,7 @@ The peripheral I/O (PIO) pins are used to make a separate connection between the
 The PIO pins have the following features and allowed uses:
 
 | PIO # | Input to host | Output from host | Internal pull-up | Analog input to host | Capacitive touch input to host | 
-|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | PIO 1 | X | X | X |   |   |
 | PIO 2 | X | X | X | X | X |
 | PIO 3 | X |   |   |   |   |

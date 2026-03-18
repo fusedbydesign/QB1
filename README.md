@@ -7,7 +7,10 @@ QB1 is a rapid prototyping system for ESP32 devices. The system was designed for
 * Rapid prototyping for testing sensors and automation in the intended environment.
 * Modular design allows each device to be built with the appropriate sensors, power interface, and mounting solutions. The five cube faces can each be used for a different purpose. 
 * The QB1 specification allows multiple sensors to exist on the same device without conflict.
-* Easy to make. The enclosure can be produced using a basic 3D printer. The device can be built with basic soldering skills.
+* Easy to make. 
+  * The enclosure can be produced using a low cost 3D printer. 
+  * The main board can be assembled quickly with basic soldering skills.
+  * Many common sensor can be integrated by printing a custom face plate and connecting the sensor to the main board with Dupont wire. 
 * Once constructed, the device can be modified without soldering, enabling rapid modification of devices. 
 
 ## Example Projects
@@ -66,12 +69,11 @@ All components other than custom circuit boards and 3D-printed enclosure parts c
 
 ### Assembling the Boards
 
-Follow the instructions provided to assemble the QB1 main board and any peripheral boards.
+Follow the instructions provided to assemble the QB1 [main board](/mainboards/ESP32DK) and any peripheral boards.
 
 ### Assembling the QB1
 
 * Insert the ESP32 development board into the pair of 15-pin sockets on the bottom of the QB1 main board. Use the labels on the PCB silk screen to orient the ESP32 board correctly.  
-* If applicable, plug the power supply into the power connector on the bottom of the board. 
 * Place the main board on the tall screw hole supports inside the enclosure bottom. Ensure that the board is oriented correctly so that the ESP32 dev board screw holes rest on the lower supports and the USB-C connector faces the opening on the bottom plate. Screw the main board in place with 4 M3 screws.
 * Place the USB-C port cover in the enclosure bottom and glue it in place with super glue. 
 * Attach peripherals
@@ -97,8 +99,8 @@ Follow the instructions provided to assemble the QB1 main board and any peripher
 * **How do I add an external connector?** The best ways to achieve this are:
   * Locate a panel-mount connector and attach it to the main board using wires.
   * Make a simple peripheral board with connectors soldered to it. A male JST-XH connector soldered to a peripheral board will sit approximately flush with the face plate. 
-* **How do I configure ESPHome?** Locate ESPHome documentation for the sensor you would like to configure. Look at the silk screen markings on the QB1 main board to determine which pins are attached to each connector position. 
+* **How do I configure ESPHome?** Locate ESPHome documentation for the sensor you would like to configure. Look at the main board documentation or silk screen markings on the main board to determine which pins are attached to each connector position. 
 * **What happens if I plug in multiple peripherals? How do I keep them from conflicting?** The QB1 spec assigns pins to each peripheral position. Some pins are shared, such as pins intended for the I2C and SPI buses. Each peripheral position also has four pins that are dedicated to that position (with the exception of EB2 and EB5, that have the same set of "dedicated" pins). Where possible, a peripheral should use dedicated pins or buses in order to avoid conflict.
 * **The screws are too tight/loose. What is wrong?** To keep the part count low, the design does not use screw inserts, and instead uses self-tapping screws that screw into 3D-printed holes. Due to variation in printers and settings, these holes may be slightly too large/small. To fix it:
   * If the hole is too tight, carefully drill it out. Forcing the screw in without drilling may cause the plastic to crack.
-  * If the hole is too loose, add a small amount of hot glue, allow the glue to cool, then screw in the screw.
+  * If the hole is too loose, add a small amount of hot glue, allow the glue to cool, then screw in the screw. Hot glue can also be used to repair screw holes that are cracked or worn out. 
