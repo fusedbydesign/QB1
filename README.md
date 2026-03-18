@@ -4,11 +4,11 @@ QB1 is a rapid prototyping system for ESP32 devices. The system was designed for
 
 ## Features
 
-* Rapid prototyping and deployment for testing sensors and automation in the intended environment.
+* Rapid prototyping for testing sensors and automation in the intended environment.
 * Modular design allows each device to be built with the appropriate sensors, power interface, and mounting solutions. The five cube faces can each be used for a different purpose. 
 * The QB1 specification allows multiple sensors to exist on the same device without conflict.
 * Easy to make. The enclosure can be produced using a basic 3D printer. The device can be built with basic soldering skills.
-* Once constructed, the device can be modified without soldering, enabling rapid modification of deployed devices. 
+* Once constructed, the device can be modified without soldering, enabling rapid modification of devices. 
 
 ## Example Projects
 
@@ -101,4 +101,4 @@ Follow the instructions provided to assemble the QB1 main board and any peripher
 * **What happens if I plug in multiple peripherals? How do I keep them from conflicting?** The QB1 spec assigns pins to each peripheral position. Some pins are shared, such as pins intended for the I2C and SPI buses. Each peripheral position also has four pins that are dedicated to that position (with the exception of EB2 and EB5, that have the same set of "dedicated" pins). Where possible, a peripheral should use dedicated pins or buses in order to avoid conflict.
 * **The screws are too tight/loose. What is wrong?** To keep the part count low, the design does not use screw inserts, and instead uses self-tapping screws that screw into 3D-printed holes. Due to variation in printers and settings, these holes may be slightly too large/small. To fix it:
   * If the hole is too tight, carefully drill it out. Forcing the screw in without drilling may cause the plastic to crack.
-  * If the hole is too loose, fill it with hot glue, allow the glue to cool, then screw in the screw.
+  * If the hole is too loose, add a small amount of hot glue, allow the glue to cool, then screw in the screw.

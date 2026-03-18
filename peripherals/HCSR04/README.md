@@ -26,6 +26,8 @@ Take note of the order in which the components must be placed and soldered---the
 1. Attach the HC-SR04 and related components
   * For straight mount, start by placing and soldering the single pin headers on the front side of the board, as shown in the silk screen. These headers are not connected, and are only used for structural support. Using wire cutters, cut the header pins so that only 3-4mm extends above the plastic part. Next, place and solder the HC-SR04 in the U1 position on the same side of the board, with the sensor pointing toward the nearest edge of the board. Bend the HC-SR04 back toward the board so that the single-pin header pins go through the holes in the HC-SR04 module board, and the HC-SR04 module board rests against the plastic part of the headers. Cut the excess pin length from the HC-SR04 connector.
   * For edge mount, place and solder the HC-SR04 module in the U2 position on the back of the board, with the sensor pointing away from the board. 
+  
+The peripheral board mounts to the main board in the inside position, in order to accommodate the depth of the sensor module. 
 
 ## Operation
 
