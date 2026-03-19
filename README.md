@@ -61,7 +61,7 @@ All components other than custom circuit boards and 3D-printed enclosure parts c
 * M3 self-tapping, coarse threaded screws with pan head. The head must be between 3.5mm and 5.5mm in diameter. 
   * (8) To secure the main board and close the case, use screws that are 8mm long (not counting the head), but screws up to 16 mm in length will also work.
   * (4, Optional) To make the top plate removable and functional, use screws that are exactly 8mm long (not counting the head). In most cases, the top plate is not used for sensors or other peripherals, because the four side plates are sufficient. In this case, it can be glued in place, and these screws are unnecessary.
-* Printed enclosure parts: A top, a bottom, face plates for mounting and peripherals, and blank plates to cover any remaining faces
+* [Printed enclosure parts](https://makerworld.com/en/collections/23142249-qb1): A top, a bottom, face plates for mounting and peripherals, and blank plates to cover any remaining faces. 
 * (Optional) Any additional components required for peripherals. See peripheral doc for mor information. Some generally useful items to have on hand are:
   * Dupont wire with male connector on one end and female connector on the other. The wire should be between 10 and 20cm in length. This wire is useful for hooking up small sensors that do not require a QB1 peripheral board. 
   * An assortment of small self-tapping, coarse thread screws. It is recommended that peripherals use M3x8mm screws, but this isn't always possible due to the dimensions of existing components. 
