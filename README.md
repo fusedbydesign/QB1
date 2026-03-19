@@ -45,27 +45,26 @@ The core QB1 components can be built with basic tools and skills.
 
 ### Tools Required
 
-* A basic soldering iron and related supplies. The QB1 main board contains only through hole components, so only basic soldering skills are required. Some peripheral boards require surface mount components and more advanced soldering skills. 
-* A basic 3D printer to print the QB1 enclosure and face plates. Using a print-on-demand service (or a friend with a printer) can help get you started, but having your own printer makes it much easier to print new faceplates to modify the device in the future. The Bambu Lab A1 Mini (without AMS) is inexpensive and well-suited to printing smaller items like the QB1 enclosure. 
+* A [soldering iron](https://amzn.to/4105tMp) and related supplies. The QB1 main board contains only through hole components, so only basic soldering skills are required. Some peripheral boards require surface mount components and more advanced soldering skills. 
+* A basic 3D printer to print the QB1 enclosure and face plates. Using a print-on-demand service (or a friend with a printer) can help get you started, but having your own printer makes it much easier to print new faceplates to modify the device in the future. The [Bambu Lab A1 Mini](https://bambulab.com/en/a1-mini) (without AMS) is inexpensive and well-suited to printing smaller items like the QB1 enclosure. 
 * A small Phillips screwdriver (or driver matching the head of the screws, if not Phillips). The shaft must be smaller than 5.5 mm in diameter in order to fit in the holes in the bottom of the enclosure. 
-* A small tube of super glue.
-* (Optional) A hot glue gun. Many sensors that operate at 3.3v can be connected directly to the main board using Dupont wire. It's best to glue these connectors in place so they don't fall off in operation. The hot glue can easily be removed later. 
+* A small tube of super glue to build some of the enclosure parts. 
+* (Optional) A [hot glue gun](https://amzn.to/40Knkqm). Many sensors that operate at 3.3v can be connected directly to the main board using Dupont wire. It's best to glue these connectors in place so they don't fall off in operation. The hot glue can easily be removed later. 
 
 ### Components Required
 
 All components other than custom circuit boards and 3D-printed enclosure parts can be purchased in small quantities from Amazon or AliExpress.
 
 * A QB1 main board. You can order a small batch of 5 main boards using this [PCBWay project](https://www.pcbway.com/project/shareproject/QB1_Main_Board_for_ESP32_Development_Kit_a3892956.html). You can also use the zipped Gerber files provided in a QB1 release to order the board from another supplier. 
-* A 30-pin ESP32 development board with USB-C connector. You can choose a device with the right storage and other features for your application.
-* (7) Female 15-pin, single row board header with 2.54 mm pin spacing. You will need two for the ESP32 dev kit socket and up to 5 for the remaining QB4 faces.
-* M3 self-tapping, coarse threaded screws with pan head. The head must be between 3.5mm and 5.5mm in diameter. 
+* A [30-pin ESP32 development board](https://amzn.to/4lGmVin) with USB-C connector. You can choose a device with the right storage and other features for your application.
+* (7) [Female 15-pin, single row board header with 2.54 mm pin spacing](https://amzn.to/4suHbWA). You will need two for the ESP32 dev kit socket and up to 5 for the remaining QB4 faces.
+* [Screws](https://amzn.to/47RIYwE): M3, self-tapping, coarse threaded with pan/button head. The head must be between 3.5mm and 5.5mm in diameter.
   * (8) To secure the main board and close the case, use screws that are 8mm long (not counting the head), but screws up to 16 mm in length will also work.
   * (4, Optional) To make the top plate removable and functional, use screws that are exactly 8mm long (not counting the head). In most cases, the top plate is not used for sensors or other peripherals, because the four side plates are sufficient. In this case, it can be glued in place, and these screws are unnecessary.
 * [Printed enclosure parts](https://makerworld.com/en/collections/23142249-qb1): A top, a bottom, face plates for mounting and peripherals, and blank plates to cover any remaining faces. 
 * (Optional) Any additional components required for peripherals. See peripheral doc for mor information. Some generally useful items to have on hand are:
-  * Dupont wire with male connector on one end and female connector on the other. The wire should be between 10 and 20cm in length. This wire is useful for hooking up small sensors that do not require a QB1 peripheral board. 
-  * An assortment of small self-tapping, coarse thread screws. It is recommended that peripherals use M3x8mm screws, but this isn't always possible due to the dimensions of existing components. 
-  * Small prototyping boards (e.g 40 mm by 60 mm) can be used to develop peripheral boards.  
+  * [Dupont wire](https://amzn.to/4slY8CT) with male connector on one end and female connector on the other. The wire should be between 10 and 20cm in length. This wire is useful for hooking up small sensors that do not require a QB1 peripheral board. 
+  * [Small prototyping boards](https://amzn.to/4sSRvYk) (e.g 40 mm by 60 mm) can be used to develop peripheral boards.  
 
 ### Assembling the Boards
 
@@ -104,3 +103,13 @@ Follow the instructions provided to assemble the QB1 [main board](/mainboards/ES
 * **The screws are too tight/loose. What is wrong?** To keep the part count low, the design does not use screw inserts, and instead uses self-tapping screws that screw into 3D-printed holes. Due to variation in printers and settings, these holes may be slightly too large/small. To fix it:
   * If the hole is too tight, carefully drill it out. Forcing the screw in without drilling may cause the plastic to crack.
   * If the hole is too loose, add a small amount of hot glue, allow the glue to cool, then screw in the screw. Hot glue can also be used to repair screw holes that are cracked or worn out. 
+* **What options should I select when ordering boards from PCBWay?** Unless you have a compelling reason to change the options, you can use the default settings when ordering boards. 
+
+## Support and Transparency
+
+If you are fortunate enough to have a store near you that sells basic electronics components, please consider buying components from them instead of using the links on this site or ordering from internet retailers.
+
+I (the developer of QB1) earn a commission from tools and components purchased though links on this site. As an Amazon Associate, I earn from qualifying purchases. I also earn a commission from circuit boards ordered from PCBWay. I chose the recommended tools/components by searching for products with the correct specs and features, but I haven't tried them all. Please review the product description, specs, reviews, etc. before ordering.
+
+If you would like to directly support the development of QB1, you can donate to my [Buy me a coffee](buymeacoffee.com/FusedByDesign) page. 
+ 
