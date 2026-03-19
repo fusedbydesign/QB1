@@ -111,5 +111,5 @@ If you are fortunate enough to have a store near you that sells basic electronic
 
 I (the developer of QB1) earn a commission from tools and components purchased though links on this site. As an Amazon Associate, I earn from qualifying purchases. I also earn a commission from circuit boards ordered from PCBWay. I chose the recommended tools/components by searching for products with the correct specs and features, but I haven't tried them all. Please review the product description, specs, reviews, etc. before ordering.
 
-If you would like to directly support the development of QB1, you can donate to my [Buy me a coffee](buymeacoffee.com/FusedByDesign) page. 
+If you would like to directly support the development of QB1, you can donate using [Buy me a coffee](https://buymeacoffee.com/fusedbydesign). 
  
