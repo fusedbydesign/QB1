@@ -1,12 +1,12 @@
 # Garage Door Opener Board for QB1
 
-The Garage Door Opener (GDO) board allows the QB1 to directly interface with Chamberlain/Liftmaster that cannot be controlled with dry contacts. 
+The Garage Door Opener (GDO) board allows the QB1 to directly interface with Chamberlain/Liftmaster garage door openers that cannot be controlled with dry contacts. 
 
 This peripheral is inspired by the [ratgdo](https://ratcloud.llc), and it is designed to be compatible with [ratgdo firmware](https://paulwieland.github.io/ratgdo/flash.html). If you want to connect your garage door opener to your home automation system, please consider buying a ratgdo board. Some models even include additional components that make it easy to solve additional garage sensing/control problems (car presense, parking distance) with the ratgdo. 
 
 The schematic and technical information used to develop this project is due to the [rat-ratgdo project](https://github.com/Kaldek/rat-ratgdo). 
 
-Assembling this peripheral is somewhat challenging because it is necessary to obtain and solder surface mount components. The soldering is possible with a normal soldering iron with a fine tip. Search on YouTube for instructional videos. 
+Assembling this peripheral is somewhat challenging because it is necessary to obtain and solder surface mount components. The soldering is possible with a normal soldering iron with a fine tip. Search on YouTube for instructional videos. You will probably also want additional tools such as a vise, a desk-mounted magnifying glass, and tweezers. 
 
 
 ## Required components
@@ -14,8 +14,8 @@ Assembling this peripheral is somewhat challenging because it is necessary to ob
 | Count | Description |
 |---|---|
 | 1 | 3-pin male JST-XH PCB connector, through hole, straight |
-| 1 | 2N7002, surface mount, SOT-23 |
-| 2 | AO3400A, surface mount, SOT-23 |
+| 1 | 2N7002 transistor, surface mount, SOT-23 |
+| 2 | AO3400A transistor, surface mount, SOT-23 |
 | 3 | 10k Ohm resistor, surface mount, 0805 |
 | 1 | 15-pin male header with 2.54mm spacing, angled |
 | 1 | (Optional) 2-pin male header with 2.54mm spacing, straight| 
@@ -29,7 +29,7 @@ It is also necessary to obtain a wire to connect the peripheral to the terminals
 1. Place and solder the 3-pin JST connector, after selecting the appropriate location. 
   * To allow the peripheral to be installed in a side face of the QB1 (the most common mounting), the connector should placed in the location marked J4 on the back side of the board.
   * The connector can be soldered in other positions, or even left off the board, to support less common methods of mounting the board and connecting to the garage door opener. 
-1. Place and solder the 15-pin angled header on the front side of the board. 
+1. Place and solder the 15-pin angled header on the front side of the board. The board may not have silk screen markings to indicate the correct side of the board for the header. It should be placed on the same side as the surface mount components.  
 1. (Optional) place and solder the 2-pin male jumper at position J2 on the front of the board. 
 
 The 2-pin male header is used to optionally connect the CTRL signal from the garage door opener to the QB1 AUX line. This optional connection can be made by placing a jumper on the header. The connection allows other peripherals to use the CTRL signal (e.g. to make a power supply).

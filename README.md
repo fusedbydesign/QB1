@@ -55,7 +55,7 @@ The core QB1 components can be built with basic tools and skills.
 
 All components other than custom circuit boards and 3D-printed enclosure parts can be purchased in small quantities from Amazon or AliExpress.
 
-* A QB1 main board. You can order this from a PCB printing company like JLCPCB using Gerber files produced from the source files using Kicad.
+* A QB1 main board. You can order a small batch of 5 main boards using this [PCBWay project](https://www.pcbway.com/project/shareproject/QB1_Main_Board_for_ESP32_Development_Kit_a3892956.html). You can also use the zipped Gerber files provided in a QB1 release to order the board from another supplier. 
 * A 30-pin ESP32 development board with USB-C connector. You can choose a device with the right storage and other features for your application.
 * (7) Female 15-pin, single row board header with 2.54 mm pin spacing. You will need two for the ESP32 dev kit socket and up to 5 for the remaining QB4 faces.
 * M3 self-tapping, coarse threaded screws with pan head. The head must be between 3.5mm and 5.5mm in diameter. 
