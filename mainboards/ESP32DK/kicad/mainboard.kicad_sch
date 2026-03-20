@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4c9e63b6-5b46-4a36-b4e4-c1b4e7c130e3")
 	(paper "A4")
 	(title_block
@@ -92,6 +92,186 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 1.905 18.415)
+					(mid 2.54 17.78)
+					(end 1.905 17.145)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 15.875)
+					(mid 2.54 15.24)
+					(end 1.905 14.605)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 13.335)
+					(mid 2.54 12.7)
+					(end 1.905 12.065)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 10.795)
+					(mid 2.54 10.16)
+					(end 1.905 9.525)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 8.255)
+					(mid 2.54 7.62)
+					(end 1.905 6.985)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 5.715)
+					(mid 2.54 5.08)
+					(end 1.905 4.445)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 3.175)
+					(mid 2.54 2.54)
+					(end 1.905 1.905)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 0.635)
+					(mid 2.54 0)
+					(end 1.905 -0.635)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -1.905)
+					(mid 2.54 -2.54)
+					(end 1.905 -3.175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -4.445)
+					(mid 2.54 -5.08)
+					(end 1.905 -5.715)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -6.985)
+					(mid 2.54 -7.62)
+					(end 1.905 -8.255)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -9.525)
+					(mid 2.54 -10.16)
+					(end 1.905 -10.795)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -12.065)
+					(mid 2.54 -12.7)
+					(end 1.905 -13.335)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -14.605)
+					(mid 2.54 -15.24)
+					(end 1.905 -15.875)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -17.145)
+					(mid 2.54 -17.78)
+					(end 1.905 -18.415)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.81 -20.32) (xy -1.27 -20.32)
@@ -116,269 +296,17 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 1.905 -18.415)
-					(mid 2.54 -17.78)
-					(end 1.905 -17.145)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -15.875)
-					(mid 2.54 -15.24)
-					(end 1.905 -14.605)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -13.335)
-					(mid 2.54 -12.7)
-					(end 1.905 -12.065)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -10.795)
-					(mid 2.54 -10.16)
-					(end 1.905 -9.525)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -8.255)
-					(mid 2.54 -7.62)
-					(end 1.905 -6.985)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -5.715)
-					(mid 2.54 -5.08)
-					(end 1.905 -4.445)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -3.175)
-					(mid 2.54 -2.54)
-					(end 1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 -0.635)
-					(mid 2.54 0)
-					(end 1.905 0.635)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 1.905)
-					(mid 2.54 2.54)
-					(end 1.905 3.175)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 4.445)
-					(mid 2.54 5.08)
-					(end 1.905 5.715)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 6.985)
-					(mid 2.54 7.62)
-					(end 1.905 8.255)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 9.525)
-					(mid 2.54 10.16)
-					(end 1.905 10.795)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 12.065)
-					(mid 2.54 12.7)
-					(end 1.905 13.335)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 14.605)
-					(mid 2.54 15.24)
-					(end 1.905 15.875)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.905 17.145)
-					(mid 2.54 17.78)
-					(end 1.905 18.415)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at 7.62 17.78 180)
 					(length 5.08)
-					(name "1"
+					(name "15"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 12.7 180)
-					(length 5.08)
-					(name "13"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -405,16 +333,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 17.78 180)
+					(at 7.62 12.7 180)
 					(length 5.08)
-					(name "15"
+					(name "13"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "15"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -423,16 +351,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at 7.62 10.16 180)
 					(length 5.08)
-					(name "2"
+					(name "12"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "2"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -441,16 +369,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 7.62 180)
 					(length 5.08)
-					(name "3"
+					(name "11"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "3"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -459,16 +387,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 5.08 180)
 					(length 5.08)
-					(name "4"
+					(name "10"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "4"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,52 +405,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 2.54 180)
 					(length 5.08)
-					(name "5"
+					(name "9"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -549,16 +441,124 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 5.08)
-					(name "9"
+					(name "7"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "9"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -15.24 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -17.78 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -567,6 +567,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "mainboard-eagle-import:PINHD-1X2"
 			(exclude_from_sim no)
@@ -628,18 +629,6 @@
 			(symbol "PINHD-1X2_1_0"
 				(polyline
 					(pts
-						(xy -6.35 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -6.35 5.08) (xy -6.35 -2.54)
 					)
 					(stroke
@@ -652,7 +641,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 1.27 5.08)
+						(xy -6.35 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -665,6 +654,18 @@
 				(polyline
 					(pts
 						(xy 1.27 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -711,6 +712,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -1805,7 +1807,6 @@
 	)
 	(label "D19"
 		(at 134.62 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1816,7 +1817,6 @@
 	)
 	(label "D32"
 		(at 172.72 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1827,7 +1827,6 @@
 	)
 	(label "D13"
 		(at 160.02 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1838,7 +1837,6 @@
 	)
 	(label "VIN"
 		(at 152.4 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1849,7 +1847,6 @@
 	)
 	(label "VIN"
 		(at 139.7 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1860,7 +1857,6 @@
 	)
 	(label "EN"
 		(at 139.7 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1871,7 +1867,6 @@
 	)
 	(label "D21"
 		(at 208.28 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1882,7 +1877,6 @@
 	)
 	(label "D22"
 		(at 134.62 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1893,7 +1887,6 @@
 	)
 	(label "AUX"
 		(at 127 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1904,7 +1897,6 @@
 	)
 	(label "GND"
 		(at 200.66 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1915,7 +1907,6 @@
 	)
 	(label "D12"
 		(at 172.72 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1926,7 +1917,6 @@
 	)
 	(label "3V3"
 		(at 147.32 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1937,7 +1927,6 @@
 	)
 	(label "GND"
 		(at 81.28 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1948,7 +1937,6 @@
 	)
 	(label "GND"
 		(at 200.66 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1959,7 +1947,6 @@
 	)
 	(label "D14"
 		(at 172.72 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1970,7 +1957,6 @@
 	)
 	(label "EN"
 		(at 152.4 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1981,7 +1967,6 @@
 	)
 	(label "D4"
 		(at 154.94 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1992,7 +1977,6 @@
 	)
 	(label "D19"
 		(at 134.62 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2003,7 +1987,6 @@
 	)
 	(label "D22"
 		(at 81.28 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2014,7 +1997,6 @@
 	)
 	(label "TX0"
 		(at 134.62 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2025,7 +2007,6 @@
 	)
 	(label "D14"
 		(at 208.28 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2036,7 +2017,6 @@
 	)
 	(label "D39"
 		(at 172.72 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2047,7 +2027,6 @@
 	)
 	(label "EN"
 		(at 208.28 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2058,7 +2037,6 @@
 	)
 	(label "D19"
 		(at 208.28 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2069,7 +2047,6 @@
 	)
 	(label "D36"
 		(at 172.72 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2080,7 +2057,6 @@
 	)
 	(label "D15"
 		(at 134.62 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2091,7 +2067,6 @@
 	)
 	(label "D22"
 		(at 81.28 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2102,7 +2077,6 @@
 	)
 	(label "VIN"
 		(at 81.28 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2113,7 +2087,6 @@
 	)
 	(label "D27"
 		(at 81.28 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2124,7 +2097,6 @@
 	)
 	(label "D21"
 		(at 147.32 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2135,7 +2107,6 @@
 	)
 	(label "D34"
 		(at 172.72 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2146,7 +2117,6 @@
 	)
 	(label "D17"
 		(at 162.56 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2157,7 +2127,6 @@
 	)
 	(label "D32"
 		(at 129.54 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2168,7 +2137,6 @@
 	)
 	(label "D22"
 		(at 142.24 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2179,7 +2147,6 @@
 	)
 	(label "D12"
 		(at 81.28 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2190,7 +2157,6 @@
 	)
 	(label "D19"
 		(at 157.48 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2201,7 +2167,6 @@
 	)
 	(label "VIN"
 		(at 81.28 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2212,7 +2177,6 @@
 	)
 	(label "D39"
 		(at 157.48 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2223,7 +2187,6 @@
 	)
 	(label "D2"
 		(at 134.62 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2234,7 +2197,6 @@
 	)
 	(label "D18"
 		(at 137.16 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2245,7 +2207,6 @@
 	)
 	(label "D25"
 		(at 172.72 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2256,7 +2217,6 @@
 	)
 	(label "D23"
 		(at 160.02 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2267,7 +2227,6 @@
 	)
 	(label "D33"
 		(at 132.08 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2278,7 +2237,6 @@
 	)
 	(label "D34"
 		(at 208.28 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2289,7 +2247,6 @@
 	)
 	(label "D21"
 		(at 134.62 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2300,7 +2257,6 @@
 	)
 	(label "AUX"
 		(at 208.28 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2311,7 +2267,6 @@
 	)
 	(label "3V3"
 		(at 134.62 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2322,7 +2277,6 @@
 	)
 	(label "D21"
 		(at 81.28 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2333,7 +2287,6 @@
 	)
 	(label "D13"
 		(at 172.72 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2344,7 +2297,6 @@
 	)
 	(label "VIN"
 		(at 208.28 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2355,7 +2307,6 @@
 	)
 	(label "VIN"
 		(at 172.72 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2366,7 +2317,6 @@
 	)
 	(label "D13"
 		(at 81.28 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2377,7 +2327,6 @@
 	)
 	(label "D18"
 		(at 81.28 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2388,7 +2337,6 @@
 	)
 	(label "RX0"
 		(at 134.62 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2399,7 +2347,6 @@
 	)
 	(label "GND"
 		(at 81.28 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2410,7 +2357,6 @@
 	)
 	(label "AUX"
 		(at 165.1 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2421,7 +2367,6 @@
 	)
 	(label "D26"
 		(at 172.72 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2432,7 +2377,6 @@
 	)
 	(label "D2"
 		(at 208.28 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2443,7 +2387,6 @@
 	)
 	(label "D25"
 		(at 208.28 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2454,7 +2397,6 @@
 	)
 	(label "EN"
 		(at 81.28 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2465,7 +2407,6 @@
 	)
 	(label "D21"
 		(at 81.28 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2476,7 +2417,6 @@
 	)
 	(label "3V3"
 		(at 208.28 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2487,7 +2427,6 @@
 	)
 	(label "D19"
 		(at 81.28 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2498,7 +2437,6 @@
 	)
 	(label "D23"
 		(at 81.28 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2509,7 +2447,6 @@
 	)
 	(label "D17"
 		(at 81.28 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2520,7 +2457,6 @@
 	)
 	(label "D23"
 		(at 208.28 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2531,7 +2467,6 @@
 	)
 	(label "VIN"
 		(at 200.66 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2542,7 +2477,6 @@
 	)
 	(label "D5"
 		(at 134.62 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2553,7 +2487,6 @@
 	)
 	(label "D18"
 		(at 208.28 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2564,7 +2497,6 @@
 	)
 	(label "D21"
 		(at 144.78 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2575,7 +2507,6 @@
 	)
 	(label "D39"
 		(at 81.28 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2586,7 +2517,6 @@
 	)
 	(label "D19"
 		(at 81.28 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2597,7 +2527,6 @@
 	)
 	(label "D25"
 		(at 162.56 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2608,7 +2537,6 @@
 	)
 	(label "D18"
 		(at 134.62 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2619,7 +2547,6 @@
 	)
 	(label "D23"
 		(at 134.62 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2630,7 +2557,6 @@
 	)
 	(label "GND"
 		(at 142.24 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2641,7 +2567,6 @@
 	)
 	(label "GND"
 		(at 208.28 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2652,7 +2577,6 @@
 	)
 	(label "D25"
 		(at 81.28 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2663,7 +2587,6 @@
 	)
 	(label "D4"
 		(at 134.62 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2674,7 +2597,6 @@
 	)
 	(label "D27"
 		(at 172.72 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2685,7 +2607,6 @@
 	)
 	(label "D16"
 		(at 81.28 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2696,7 +2617,6 @@
 	)
 	(label "3V3"
 		(at 144.78 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2707,7 +2627,6 @@
 	)
 	(label "D35"
 		(at 134.62 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2718,7 +2637,6 @@
 	)
 	(label "3V3"
 		(at 81.28 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2729,7 +2647,6 @@
 	)
 	(label "D18"
 		(at 81.28 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2740,7 +2657,6 @@
 	)
 	(label "D23"
 		(at 132.08 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2751,7 +2667,6 @@
 	)
 	(label "EN"
 		(at 200.66 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2762,7 +2677,6 @@
 	)
 	(label "D33"
 		(at 172.72 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2773,7 +2687,6 @@
 	)
 	(label "3V3"
 		(at 81.28 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2784,7 +2697,6 @@
 	)
 	(label "D23"
 		(at 81.28 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2795,7 +2707,6 @@
 	)
 	(label "D26"
 		(at 208.28 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2806,7 +2717,6 @@
 	)
 	(label "D22"
 		(at 149.86 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2817,7 +2727,6 @@
 	)
 	(label "AUX"
 		(at 81.28 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2828,7 +2737,6 @@
 	)
 	(label "D15"
 		(at 137.16 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2839,7 +2747,6 @@
 	)
 	(label "EN"
 		(at 81.28 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2850,7 +2757,6 @@
 	)
 	(label "D36"
 		(at 81.28 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2861,7 +2767,6 @@
 	)
 	(label "D35"
 		(at 172.72 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2872,7 +2777,6 @@
 	)
 	(label "AUX"
 		(at 81.28 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2883,7 +2787,6 @@
 	)
 	(label "D25"
 		(at 81.28 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2894,7 +2797,6 @@
 	)
 	(label "D25"
 		(at 129.54 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2905,7 +2807,6 @@
 	)
 	(label "GND"
 		(at 134.62 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2916,7 +2817,6 @@
 	)
 	(label "D22"
 		(at 208.28 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2927,7 +2827,6 @@
 	)
 	(label "D16"
 		(at 134.62 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2938,7 +2837,6 @@
 	)
 	(label "EN"
 		(at 172.72 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2949,7 +2847,6 @@
 	)
 	(label "GND"
 		(at 149.86 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2960,7 +2857,6 @@
 	)
 	(label "D17"
 		(at 134.62 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2971,7 +2867,6 @@
 	)
 	(label "D4"
 		(at 81.28 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2982,7 +2877,6 @@
 	)
 	(label "GND"
 		(at 172.72 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2993,7 +2887,6 @@
 	)
 	(label "D18"
 		(at 154.94 144.78 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3047,7 +2940,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 68.58 152.4 0)
 			(effects
 				(font
@@ -3155,7 +3093,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 144.78 35.56 0)
 			(effects
 				(font
@@ -3236,7 +3219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FE15-1"
 			(at 170.18 158.75 0)
 			(effects
 				(font
@@ -3263,7 +3246,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -3344,7 +3372,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FE15-1"
 			(at 67.31 109.22 0)
 			(effects
 				(font
@@ -3371,7 +3399,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 68.58 86.36 0)
 			(effects
 				(font
@@ -3479,7 +3552,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 124.46 106.68 0)
 			(effects
 				(font
@@ -3587,7 +3705,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST XH connector, male, 1x2, straight"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "B2B-XH-A"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "No"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 213.36 132.08 0)
 			(effects
 				(font
@@ -3656,7 +3819,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST XH connector, male, 1x2, straight"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "B2B-XH-A"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "No"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 213.36 149.86 0)
 			(effects
 				(font
@@ -3698,7 +3906,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FE15-1"
 			(at 227.33 63.5 0)
 			(effects
 				(font
@@ -3725,7 +3933,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -3833,7 +4086,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "female header, 2.54mm pitch, 1x15, straight, 8.5mm body height"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part #" "PPTC151LFBN-RC"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Yes"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "through hole"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -3901,4 +4199,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
