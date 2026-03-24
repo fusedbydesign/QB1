@@ -108,3 +108,11 @@ Additional notes:
 * A peripheral board mounted in the outside position of the top plate may interfere with boards mounted in side plates that are taller than 36mm from the top of the main board connector. 
 * Dimensions related to peripheral boards assume a board thickness of 1.6 mm. For thinner/thicker boards, adjust dimensions accordingly. 
 * The spec does not govern the use of space behind the peripheral board. For best results, peripherals should use space toward the center of the usable window area, and provide options that help prevent interference with nearby peripherals (e.g. multiple face plates that place the peripheral in slightly different positions).
+
+## Component Guidelines
+
+Where possible, QB1 main boards, peripherals, and enclosure pieces should enable DIY component sourcing and assembly by hobbyists. This section contains guidelines, but these are not required to be followed for spec compliance. 
+
+* When screws are required, use M3 self-tapping coarse thread screws with 8mm of thread distance. 
+* Use through-hole electronic components, if possible.  
+

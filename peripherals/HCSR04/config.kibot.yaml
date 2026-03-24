@@ -30,3 +30,20 @@ outputs:
           dest: /
         - from_output: "gerber-drill"
           dest: /
+  - name: "bom-csv"
+    type: "bom"
+    dir: kibot/bom
+    options:
+      format: CSV
+      output: '%f_bom.%x'
+      columns:
+        - field: ITEM_NUMBER
+        - field: Reference
+        - field: Quantity
+        - field: Description
+        - field: Package
+        - field: Type
+        - field: Manufacturer
+        - field: "Mfg Part #"
+        - field: Substitution
+        - field: Placement
