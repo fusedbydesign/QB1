@@ -6,7 +6,11 @@ This peripheral is inspired by the [ratgdo](https://ratcloud.llc), and it is des
 
 The schematic and technical information used to develop this project is due to the [rat-ratgdo project](https://github.com/Kaldek/rat-ratgdo). 
 
-Assembling this peripheral is somewhat challenging because it is necessary to obtain and solder surface mount components. The soldering is possible with a normal soldering iron with a fine tip. Search on YouTube for instructional videos. You will probably also want additional tools such as a vise, a desk-mounted magnifying glass, and tweezers. 
+> [!CAUTION]
+>Assembling this peripheral is somewhat challenging because it is necessary to obtain and solder surface mount components. The soldering is possible with a normal soldering iron with a fine tip. Search on YouTube for instructional videos. You will probably also want additional tools such as a vise, a desk-mounted magnifying glass, and tweezers. 
+
+> [!NOTE]
+> A detailed BOM, PCBWay project (assembled or PCB only), and 3D-printed face plate are coming soon. 
 
 
 ## Required components
