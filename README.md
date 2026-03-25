@@ -104,6 +104,11 @@ Follow the instructions provided to assemble the QB1 [main board](/mainboards/ES
   * If the hole is too tight, carefully drill it out. Forcing the screw in without drilling may cause the plastic to crack.
   * If the hole is too loose, add a small amount of hot glue, allow the glue to cool, then screw in the screw. Hot glue can also be used to repair screw holes that are cracked or worn out. 
 * **What options should I select when ordering boards from PCBWay?** Unless you have a compelling reason to change the options, you can use the default settings when ordering boards. 
+* **How can I get a QB4 if I don't have a 3D printer or soldering iron?** There are a few options:
+  * Order assembled boards and printed enclosure parts from an electronics fab and print-on-demand service, respectively.
+  * Join a local maker space that has 3D printers and electronics assembly tools. 
+  * Find someone near you with a 3D printer and buy enclosure parts from them. Many people who own a 3D printer would be thrilled to print something for you in exchange for a small amount of money to pay for their filament habit. 
+  * Use this project as an excuse to buy what you need. Soldering supplies are inexpensive. Small/basic 3D printers are now cheap and reliable enough that they should be considered essential tools for any homeowner. 
 
 ## Support and Transparency
 

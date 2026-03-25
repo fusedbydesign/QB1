@@ -34,7 +34,7 @@ The AUX pin is intended to carry power/signals between all peripherals without u
 
 #### S
 
-The S pin carry a signal that is shared between all peripherals and the host. The use of this pin is not governed by the spec.
+The S pin carries a signal that is shared between all peripherals and the host. The use of this pin is not governed by the spec.
 
 #### SPI Pins
 
@@ -68,23 +68,23 @@ The PIO pins have the following features and allowed uses:
 
 The specification allows two power configurations:
 * In the full power configuration, power is supplied to both the 5V and 3.3V rails. All spec-compliant peripherals can be used in this configuration.
-* In the low power configuration, power is only fully supplied to the 3.3V rail. This configuration should be used when the device is powered by a battery, or otherwise has power limitations. Peripherals should work in low power mode, if possible, but this mode will not support peripherals that require 5V. A low power device may supply power to the 5V rail, but attached peripherals must not draw power from this rail.  
+* In the low power configuration, power is only fully supplied to the 3.3V rail. This configuration should be used when the device is powered by a battery, or otherwise has power limitations. Peripherals should work in low power mode, if possible, but this mode will not support peripherals that require 5V. A low power device may supply power to the 5V rail, but attached low-power peripherals must not draw power from this rail.  
 
 #### Supply
 
-A compliant power source should supply one of the following to the QB1 main board:
+A compliant power source must supply exactly one of the following to the QB1 main board:
 * 5V at 2A (full power)
 * 3.3V at 1A (low power)
 
 #### Draw
 
-A compliant peripheral should draw at most:
+A compliant peripheral must draw at most:
 * 5V at 200mA
 * 3.3V at 100mA
 
 A single peripheral may draw from both power rails simultaneously. In order to support the low power configuration, a peripheral should not draw power from the 5V rail. 
 
-If a peripheral requires more power than allowed by the spec, it should power itself and also act as a power supply to the QB1. For example, the peripheral could accept 5V at 3A, use 1A for its purposes, and provide the remaining 2A to the QB1 via VIN. The power supply could also send power to other peripherals using AUX, but the use of AUX for this purpose is outside of the spec. 
+If a peripheral requires more power than allowed by the spec, it may power itself and also act as a power supply to the QB1. For example, the peripheral could accept 5V at 3A, use 1A for its purposes, and provide the remaining 2A to the QB1 via VIN. The power supply could also send power to other peripherals using AUX, but the use of AUX for this purpose is outside of the spec. 
 
 ## Physical Specification
 
