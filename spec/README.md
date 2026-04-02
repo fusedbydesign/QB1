@@ -86,6 +86,10 @@ A single peripheral may draw from both power rails simultaneously. In order to s
 
 If a peripheral requires more power than allowed by the spec, it may power itself and also act as a power supply to the QB1. For example, the peripheral could accept 5V at 3A, use 1A for its purposes, and provide the remaining 2A to the QB1 via VIN. The power supply could also send power to other peripherals using AUX, but the use of AUX for this purpose is outside of the spec. 
 
+#### Absolute Maximum
+
+The absolute maximum voltage and current that may be supplied over AUX is 12V and 3A. 
+
 ## Physical Specification
 
 The physical specification is a set of dimensions that affect peripheral fit.

@@ -43,6 +43,9 @@ QB1 is a rapid prototyping system for ESP32 devices. The system was designed for
 
 The core QB1 components can be built with basic tools and skills. 
 
+> [!WARNING]
+> This is an open source project and a constant work in progress, not a finished product. Production files and PCBWay projects are provided only for convenience. Boards ordered using these files/projects may have flaws due to issues in the design or assembly. The maintainers of this project are not responsible for loss or damages due to these flaws. Please submit any issues you find using the issue tracker for this project.  
+
 ### Tools Required
 
 * A [soldering iron](https://amzn.to/4105tMp) and related supplies. The QB1 main board contains only through hole components, so only basic soldering skills are required. Some peripheral boards require surface mount components and more advanced soldering skills. 
